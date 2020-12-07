@@ -46,6 +46,6 @@ tahoe_no_match = data.frame(
 	y = c("Gregor",   "Lisa",  "Evan2", "Evan1"),
 	stringsAsFactors = FALSE)
 
-sst = ss(tahoe_roster, tahoe_no_match, folder = "santa_tahoe")
+sst = ss(tahoe_roster, tahoe_no_match, folder = "tahoe")
 
 #sapply(list.files(path = "santa_family/", full.names = T), readLines)
